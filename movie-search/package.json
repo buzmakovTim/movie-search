@@ -9,6 +9,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "gh-pages": "ng build --base-href 'https://buzmakovtim.github.io/movie-search/' --prod && npx ngh --dir=www/",
     "e2e": "ng e2e"
   },
   "private": true,
